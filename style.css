@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'open-sans', sans-serif;
 }
 
 body{
@@ -12,7 +13,7 @@ body{
     margin: 0;
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: url('/img/login.png');
+    background-image: url('/img/login_preto.png');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,7 +21,7 @@ body{
 }
 
 #login-form {
-    background-color: #843bc9;
+    background-color: #fff;
 }
 
 #cadastro-form {
@@ -28,11 +29,11 @@ body{
 }
 
 h1 {
-    color: #fff;
+    color: #8338ec;
 }
 
 .container{
-    background-color: #843bc9;
+    background-color: #fff;
     border-radius: 30px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
     position: relative;
@@ -147,7 +148,7 @@ h1 {
 }
 
 .social-icons a{
-    border: 1px solid #1d1c1c;
+    border: 1px solid #8228ec;
     border-radius: 20%;
     display: inline-flex;
     justify-content: center;
@@ -206,7 +207,7 @@ h1 {
     padding: 0 30px;
     text-align: center;
     top: 0;
-    background-color: #333;
+    background-color: #1a1a1a;
     transform: translateX(0);
     transition: all 0.6s ease-in-out;
 }
@@ -233,7 +234,7 @@ h1 {
     color: #fff;
     font-size: 12px;
     padding: 10px 45px;
-    border: 1px solid #000;
+    border: 1px solid #8228ec;
     border-radius: 8px;
     font-weight: 600;
     letter-spacing: 0.5px;
