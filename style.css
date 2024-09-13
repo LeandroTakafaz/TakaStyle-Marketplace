@@ -25,7 +25,7 @@ body{
 }
 
 #cadastro-form {
-    background-color: #843bc9;
+    background-color: #fff;
 }
 
 h1 {
@@ -35,7 +35,7 @@ h1 {
 .container{
     background-color: #fff;
     border-radius: 30px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.712);
     position: relative;
     overflow: hidden;
     width: 768px;
@@ -52,6 +52,7 @@ h1 {
 
 .container span{
     font-size: 12px;
+    color: #8228ec;
 }
 
 .container a{
@@ -62,11 +63,11 @@ h1 {
 }
 
 .container button{
-    background-color: #808c8d;
-    color: #fff;
+    background-color: #ffffff;
+    color: #1a1a1a;
     font-size: 12px;
     padding: 10px 45px;
-    border: 1px solid transparent;
+    border: 1px solid #8228ec;
     border-radius: 8px;
     font-weight: 600;
     letter-spacing: 0.5px;
@@ -241,4 +242,14 @@ h1 {
     text-transform: uppercase;
     margin-top: 10px;
     cursor: pointer;
+}
+
+#register {
+    border-color: #8228ec;
+    color: #fff;
+}
+
+#login {
+    border-color: #8228ec;
+    color: #fff;
 }
