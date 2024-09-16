@@ -1,5 +1,16 @@
 {
   "dependencies": {
     "express": "^4.21.0"
-  }
+  },
+  "name": "takastyle",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000T\u0000a\u0000k\u0000a\u0000S\u0000t\u0000y\u0000l\u0000e\u0000-\u0000M\u0000a\u0000r\u0000k\u0000e\u0000t\u0000p\u0000l\u0000a\u0000c\u0000e\u0000\r\u0000 \u0000",
+  "main": "animacao.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
